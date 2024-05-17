@@ -1,3 +1,20 @@
 // playbook contains instructions needed to setup your virtual machine eg install apache in this example
 
 command: ansible-galaxy init role_name -> create roles that perform certain actions
+
+
+add vagrant box
+ - vagrant box add ubuntu/jammy64
+
+ start up vagrant
+  - vagrant up
+
+ssh into vagrant
+- vagrant ssh
+
+kill the virtual box running
+- vagrant halt
+
+update the virtual box image using vagrant (it will run from the ansible playbook)
+- vagrant provision
+
