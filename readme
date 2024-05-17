@@ -1,0 +1,3 @@
+// playbook contains instructions needed to setup your virtual machine eg install apache in this example
+
+command: ansible-galaxy init role_name -> create roles that perform certain actions
